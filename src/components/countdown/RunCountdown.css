@@ -1,0 +1,9 @@
+#run-countdown {
+	display: flex;
+	flex: 1;
+	position: center;
+}
+
+#run-countdown p:not(:last-child):after {
+	content: ":";
+}
